@@ -1,3 +1,4 @@
+#html表示用
 def lambda_handler(event, context):
 
     with open("index.html", 'r') as source_file: #画像含むバイナリの時はrb,テキストファイル場合はrのみ
